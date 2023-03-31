@@ -1,0 +1,115 @@
+
+
+@media (max-width: 1680px) {
+      .text-block {
+  
+              // .text-block__column
+  
+              &__column {
+              margin-right: 80px;
+          
+              }
+  }
+  
+  }
+  
+  @media (max-width: 1560px) {
+      .textimg {
+          max-width: 1200px;
+          padding-right: 0px;
+      }    
+      .textimg {
+              // .textimg__img
+  
+              &__img {
+  
+                    // .textimg__img_img2
+              &_im2 {
+                  margin-left: 50px;
+              }
+                    &_img2 {
+                  margin-left: 50px;
+                    }
+              }
+  }
+  
+  .textimg {
+      &__imgg {
+          margin-right: 150px;
+      }
+  
+      // .textimg__text1
+  
+      &__text1 {
+          font-size: 70px;
+          line-height: 90px;
+  
+          // .textimg__text1_el2
+  
+          &_el2 {
+          }
+      }
+  }
+  }
+  
+  @media (max-width: 1224px) {
+      .textimg {
+          &__imgg {
+              margin-right: 0px;
+          }
+  }
+  }
+  
+  @media (max-width: 1172px) {
+      .textimg {
+              &__text1 {
+                    &_el1 {
+                  margin-right: 0px;
+                    }
+              }
+          &__img {
+                    &_img2 {
+                  margin-left: 0px;
+                    }
+              }
+      }
+      .imgs {
+          flex-direction: column;
+          align-items: center;
+          &__column {
+              &_el1 {
+                  margin-bottom: 0px;
+              }
+              &_el2 {
+                  margin-left: 10px;
+              }
+          }
+  }
+  }
+  
+  @media (max-width: 1070px) {
+      .textimg{
+          flex-direction: column;
+          &__coulmn {
+              align-items: center;
+              order:2;
+          }
+          &__text1 {
+              text-align: center;
+          }
+          &__text {
+              &_el1 {
+                  display: none;
+              }
+              &_el2 {
+                  display: none;
+              }
+          }
+          }
+      .footer {
+              &__column1 {
+          margin-left: 10px;
+              }
+  }
+  
+  }
